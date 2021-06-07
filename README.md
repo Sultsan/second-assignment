@@ -31,10 +31,11 @@
         
 
 3-
-            #!/bin/bash
-            echo "enter  The salary:"
-           read num
-           x=$num
+                 
+                 #!/bin/bash
+                 echo "enter  The salary:"
+                read num
+                x=$num
 
         if [ $x -gt 2000 ]
         then
@@ -78,7 +79,7 @@
        
   5-
   
-     5-
+    
 
       #!/bin/bash
       echo "enter  your number:"
@@ -133,25 +134,25 @@
         echo "The average  : $average "
 
 7-
-            #!/bin/bash
-            echo "Enter a number"
-            read nu
-            x=0
-            re=0
-            sum=0
-            num=0
-            while [ $num -gt 0 ]
-            do
-                x=$(( $n % 10 ))
-                re=$(( $re *\ 10 + $x ))
-                num=$(( $n / 10 ))
-                sum=$(($sum + $d))
-                num=$(($num + 1))
-            done
-            ave=$(( $sum / $num ))
-            echo "Reverse number of entered digit is $re"
-            echo " of the digits $sum"
-            echo "average of the digits $ave"
+                 #!/bin/bash
+                 echo "Enter a number"
+                 read nu
+                 x=0
+                 re=0
+                 sum=0
+                 num=0
+                 while [ $num -gt 0 ]
+                 do
+                     x=$(( $n % 10 ))
+                     re=$(( $re *\ 10 + $x ))
+                     num=$(( $n / 10 ))
+                     sum=$(($sum + $d))
+                     num=$(($num + 1))
+                 done
+                 ave=$(( $sum / $num ))
+                 echo "Reverse number of entered digit is $re"
+                 echo " of the digits $sum"
+                 echo "average of the digits $ave"
 
 
 
